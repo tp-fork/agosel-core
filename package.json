@@ -1,0 +1,18 @@
+{
+  "name": "@agosel/core",
+  "version": "0.1.0",
+  "description": "Agileopsvn Serverless Core",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "author": "agileopsvn",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc-alias -p tsconfig.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsc-alias": "1.3.10"
+  }
+}
